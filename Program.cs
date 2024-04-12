@@ -14,6 +14,6 @@ using csharp_lembretes.Tipos_primitivos;
 //int[] numeros = [1, 2, 2, 4];
 //repeticao.foreach_(numeros);
 
-//ConsoleEntradaSaida console = new ConsoleEntradaSaida();
+//  ConsoleEntradaSaida console = new ConsoleEntradaSaida();
 
 //Thread.Sleep(2000);//Espera 2 segundos
