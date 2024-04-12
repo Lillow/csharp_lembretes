@@ -17,3 +17,10 @@ using csharp_lembretes.Tipos_primitivos;
 //  ConsoleEntradaSaida console = new ConsoleEntradaSaida();
 
 //Thread.Sleep(2000);//Espera 2 segundos
+
+
+List<string> bandas = new List<string> { "Metallica", "AC/DC", "Iron Maiden", "Guns N' Roses", "Led Zeppelin" };
+
+
+
+for (int i = 0; i < bandas.Count; i++) { Console.WriteLine(bandas[i]); }

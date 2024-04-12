@@ -42,15 +42,10 @@ namespace csharp_lembretes.Colecoes
             numeros.Add(31); // Adiciona um valor ao final da lista
 
             Console.WriteLine(numeros.Count); // Numero de itens la lista
-
-            Console.WriteLine(numeros.);
  
+            numeros.Remove(0); // Remove elemento da posição 0
 
-            numeros.remove(0); // Remove elemento da posição 0
-
-            Console.WriteLine(numeros.get(0));
-
-            Console.WriteLine(numeros.size());
+            Console.WriteLine(numeros[0]); //Pega elemento na posição 0
         }
     }
 }
