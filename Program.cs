@@ -10,6 +10,10 @@ using csharp_lembretes.Tipos_primitivos;
 //Decisao  decisaoIfElse = new Decisao(true, true);
 //Decisao decisaoSwitch = new Decisao(42);
 
-Repeticao repeticao = new Repeticao();
-int[] numeros = [1, 2, 2, 4];
-repeticao.foreach_(numeros);
+//Repeticao repeticao = new Repeticao();
+//int[] numeros = [1, 2, 2, 4];
+//repeticao.foreach_(numeros);
+
+//ConsoleEntradaSaida console = new ConsoleEntradaSaida();
+
+//Thread.Sleep(2000);//Espera 2 segundos
