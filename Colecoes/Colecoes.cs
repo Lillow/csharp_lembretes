@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using System;
 
 namespace csharp_lembretes.Colecoes
 {
     internal class Colecoes
     {
-        public static void arrays()
+        public void Arrays()
         {
             int[] numeros = new int[5]; // Declarando e inicializando array de 5 posições
 
@@ -20,7 +18,7 @@ namespace csharp_lembretes.Colecoes
 
         }
 
-        public void matriz()
+        public void Matriz()
         {
 
             int[,] multiDimensionalArray1 = new int[2, 3]; // Declara Array com duas dimenções
@@ -35,7 +33,7 @@ namespace csharp_lembretes.Colecoes
 
         }
 
-        public static void Lists()
+        public void Lists()
         {
             List<int> numeros = new List<int>(); // Declarando e inicializando arrayList
 
@@ -48,11 +46,26 @@ namespace csharp_lembretes.Colecoes
             Console.WriteLine(numeros[0]); //Pega elemento na posição 0
         }
 
-        public static void Dicionario() {
+        public void Dicionario() {
             Dictionary<string, List<int>>dicionario = new Dictionary<string, List<int>>();
 
             dicionario.Add("chave1",[1,2,3,4,5,6,7,8]);
             dicionario.Add("chave2", [1, 2, 3, 4, 5, 6, 7, 8]);
+
+            dicionario["chave1"].Add(10); //Adiciona o valor 10 a chave 1 do dicionário
+
+
+            foreach(var key in dicionario.Keys)
+            {
+            Console.WriteLine(key); // Exibir chave do dicionário
+         
+                foreach(var valor in dicionario[key])
+                {
+                    Console.WriteLine(valor); // Exibir valores do dicionário
+                }
+                
+
+            }
 
 
 

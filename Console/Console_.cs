@@ -1,10 +1,9 @@
-﻿
-
-namespace csharp_lembretes.Outros
+﻿namespace csharp_lembretes.Console
 {
     internal class Console_
     {
-        public Console_() {
+        public Console_()
+        {
             Console.WriteLine("Console.WriteLine()"); //Printa no console e pula uma linha
             Console.Write("Console.Write() \nConsole.Read(): "); //Printa no console
             Console.Read(); //Captura texto do console

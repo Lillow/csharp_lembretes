@@ -1,4 +1,5 @@
-﻿using csharp_lembretes.Estruturas_de_controle;
+﻿using csharp_lembretes.Colecoes;
+using csharp_lembretes.Estruturas_de_controle;
 using csharp_lembretes.Outros;
 using csharp_lembretes.String;
 using csharp_lembretes.Tipos_primitivos;
@@ -19,5 +20,9 @@ using csharp_lembretes.Tipos_primitivos;
 
 //Thread.Sleep(2000);//Espera 2 segundos
 
-AdicionaCaracter adicionaCaracter = new AdicionaCaracter();
-Console.WriteLine(adicionaCaracter.AdicionaCaracterDireita(5, '9'));
+//AdicionaCaracter adicionaCaracter = new AdicionaCaracter();
+//Console.WriteLine(adicionaCaracter.AdicionaCaracterDireita(5, '9'));
+
+Colecoes colecoes = new Colecoes();
+
+colecoes.Dicionario();

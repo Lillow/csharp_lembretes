@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp_lembretes.Outros
+namespace csharp_lembretes.Interpolacao
 {
     internal class Interpolacao
     {
