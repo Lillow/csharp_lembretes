@@ -1,5 +1,6 @@
 ﻿using csharp_lembretes.Estruturas_de_controle;
 using csharp_lembretes.Outros;
+using csharp_lembretes.String;
 using csharp_lembretes.Tipos_primitivos;
 
 //TiposPrimitivos tiposPrimitivos = new TiposPrimitivos('a');
@@ -18,9 +19,5 @@ using csharp_lembretes.Tipos_primitivos;
 
 //Thread.Sleep(2000);//Espera 2 segundos
 
-
-List<string> bandas = new List<string> { "Metallica", "AC/DC", "Iron Maiden", "Guns N' Roses", "Led Zeppelin" };
-
-
-
-for (int i = 0; i < bandas.Count; i++) { Console.WriteLine(bandas[i]); }
+AdicionaCaracter adicionaCaracter = new AdicionaCaracter();
+Console.WriteLine(adicionaCaracter.AdicionaCaracterDireita(5, '9'));
