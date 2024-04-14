@@ -1,8 +1,4 @@
-﻿
-
-using System;
-
-namespace csharp_lembretes.Colecoes
+﻿namespace csharp_lembretes.Colecoes
 {
     internal class Colecoes
     {
@@ -40,30 +36,31 @@ namespace csharp_lembretes.Colecoes
             numeros.Add(31); // Adiciona um valor ao final da lista
 
             Console.WriteLine(numeros.Count); // Numero de itens la lista
- 
+
             numeros.Remove(0); // Remove elemento da posição 0
 
             Console.WriteLine(numeros[0]); //Pega elemento na posição 0
         }
 
-        public void Dicionario() {
-            Dictionary<string, List<int>>dicionario = new Dictionary<string, List<int>>();
+        public void Dicionario()
+        {
+            Dictionary<string, List<int>> dicionario = new Dictionary<string, List<int>>();
 
-            dicionario.Add("chave1",[1,2,3,4,5,6,7,8]);
+            dicionario.Add("chave1", [1, 2, 3, 4, 5, 6, 7, 8]);
             dicionario.Add("chave2", [1, 2, 3, 4, 5, 6, 7, 8]);
 
             dicionario["chave1"].Add(10); //Adiciona o valor 10 a chave 1 do dicionário
 
 
-            foreach(var key in dicionario.Keys)
+            foreach (var key in dicionario.Keys)
             {
-            Console.WriteLine(key); // Exibir chave do dicionário
-         
-                foreach(var valor in dicionario[key])
+                Console.WriteLine(key); // Exibir chave do dicionário
+
+                foreach (var valor in dicionario[key])
                 {
                     Console.WriteLine(valor); // Exibir valores do dicionário
                 }
-                
+
 
             }
 

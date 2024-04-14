@@ -30,7 +30,7 @@
                     break;
                 case 666:
                     Console.WriteLine("Capiroto");
-                    break;               
+                    break;
                 default:
                     Console.WriteLine(":)");
                     break;

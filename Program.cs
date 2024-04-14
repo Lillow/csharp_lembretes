@@ -1,6 +1,5 @@
 ﻿using csharp_lembretes.Colecoes;
 using csharp_lembretes.Estruturas_de_controle;
-using csharp_lembretes.Outros;
 using csharp_lembretes.String;
 using csharp_lembretes.Tipos_primitivos;
 
@@ -26,3 +25,4 @@ using csharp_lembretes.Tipos_primitivos;
 Colecoes colecoes = new Colecoes();
 
 colecoes.Dicionario();
+
