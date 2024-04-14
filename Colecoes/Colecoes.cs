@@ -35,6 +35,8 @@
 
             numeros.Add(31); // Adiciona um valor ao final da lista
 
+            Console.WriteLine(numeros.Average()); // Calcular média da lista
+
             Console.WriteLine(numeros.Count); // Numero de itens la lista
 
             numeros.Remove(0); // Remove elemento da posição 0
@@ -51,6 +53,8 @@
 
             dicionario["chave1"].Add(10); //Adiciona o valor 10 a chave 1 do dicionário
 
+            List<int> valores = dicionario["chave1"];
+            Console.WriteLine(valores.Average()); //Média dos válores
 
             foreach (var key in dicionario.Keys)
             {
