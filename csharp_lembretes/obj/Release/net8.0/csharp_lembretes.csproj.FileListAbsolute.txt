@@ -1,0 +1,5 @@
+C:\Users\danil\workspace\csharp_lembretes\csharp_lembretes\obj\Release\net8.0\csharp_lembretes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danil\workspace\csharp_lembretes\csharp_lembretes\obj\Release\net8.0\csharp_lembretes.AssemblyInfoInputs.cache
+C:\Users\danil\workspace\csharp_lembretes\csharp_lembretes\obj\Release\net8.0\csharp_lembretes.AssemblyInfo.cs
+C:\Users\danil\workspace\csharp_lembretes\csharp_lembretes\obj\Release\net8.0\csharp_lembretes.csproj.CoreCompileInputs.cache
+C:\Users\danil\workspace\csharp_lembretes\csharp_lembretes\obj\Release\net8.0\csharp_lembretes.sourcelink.json

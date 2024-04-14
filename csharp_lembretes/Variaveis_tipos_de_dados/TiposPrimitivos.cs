@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace csharp_lembretes.Variaveis_tipos_de_dados
+﻿namespace csharp_lembretes.Variaveis_tipos_de_dados
 {
     internal class TiposPrimitivos
     {
@@ -37,7 +31,7 @@ namespace csharp_lembretes.Variaveis_tipos_de_dados
         public TiposPrimitivos(char var_s)
         {
             var var_ = var_s;
-            Console.WriteLine("Var é tipo: char");
+            Console.WriteLine($"{var_} é tipo: char");
             /*
              * Esse tipo tem seu tipo de acordo com o primeiro valor recebido; Precisa
              * sempre receber um valor na declaração; Só pode ser declarados detro de
@@ -49,7 +43,7 @@ namespace csharp_lembretes.Variaveis_tipos_de_dados
         public TiposPrimitivos(int var_i)
         {
             var var_ = var_i;
-            Console.WriteLine("Var é tipo: int");
+            Console.WriteLine($"{var_} é tipo: int");
             /*
              * Esse tipo tem seu tipo de acordo com o primeiro valor recebido; Precisa
              * sempre receber um valor na declaração; Só pode ser declarados detro de
@@ -61,7 +55,7 @@ namespace csharp_lembretes.Variaveis_tipos_de_dados
         public TiposPrimitivos(bool var_b)
         {
             var var_ = var_b;
-            Console.WriteLine("Var é tipo: bool");
+            Console.WriteLine($"{var_} é tipo: bool");
             /*
              * Esse tipo tem seu tipo de acordo com o primeiro valor recebido; Precisa
              * sempre receber um valor na declaração; Só pode ser declarados detro de

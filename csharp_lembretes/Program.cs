@@ -1,7 +1,10 @@
-﻿using csharp_lembretes.Colecoes;
+﻿using csharp_lembretes.Classes_objetos_heranca_polimorfismo;
+using csharp_lembretes.Colecoes;
 using csharp_lembretes.Estruturas_de_controle;
-using csharp_lembretes.String;
-using csharp_lembretes.Tipos_primitivos;
+
+/*************************
+𝔸𝕢𝕦𝕚 𝕒𝕔𝕠𝕟𝕥𝕖𝕔𝕖𝕞 𝕠𝕤 𝕥𝕖𝕤𝕥𝕖𝕤
+*************************/
 
 //TiposPrimitivos tiposPrimitivos = new TiposPrimitivos('a');
 //tiposPrimitivos.boleano = true;
@@ -22,7 +25,12 @@ using csharp_lembretes.Tipos_primitivos;
 //AdicionaCaracter adicionaCaracter = new AdicionaCaracter();
 //Console.WriteLine(adicionaCaracter.AdicionaCaracterDireita(5, '9'));
 
-Colecoes colecoes = new Colecoes();
+//Colecoes colecoes = new Colecoes();
+//colecoes.Dicionario();
 
-colecoes.Dicionario();
+//SuperClasse superClasse = new("Super Classe");
+//superClasse.Propriedade = "Super";
+//SuperClasse.MetodoAbstrato();
 
+//Lambda lambda = new Lambda();
+//lambda.GetNumerosPares();

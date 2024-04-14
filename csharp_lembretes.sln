@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp_lembretes", "csharp_lembretes\csharp_lembretes.csproj", "{EDD266A9-F592-4229-B444-09A240C3AB29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD266A9-F592-4229-B444-09A240C3AB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD266A9-F592-4229-B444-09A240C3AB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD266A9-F592-4229-B444-09A240C3AB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD266A9-F592-4229-B444-09A240C3AB29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89FE0F47-9049-443C-BDD8-0BC8036D2F10}
+	EndGlobalSection
+EndGlobal
