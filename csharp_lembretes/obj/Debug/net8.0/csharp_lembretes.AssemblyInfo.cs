@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharp_lembretes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9115ad205f8471730b3de5a4a6680cedd8dfa70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e02cc759189f39f9f202ddc7fead4dd37a5d6fe6")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharp_lembretes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharp_lembretes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

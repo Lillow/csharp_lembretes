@@ -4,7 +4,7 @@
     {
 
 
-        public Decisao(bool bool1, bool bool2)
+        public static void IfElse(bool bool1, bool bool2)
         {
             if (bool1 != bool2)
             {
@@ -21,7 +21,7 @@
             }
         }
 
-        public Decisao(int num)
+        public static void SwitchCase(int num)
         {
             switch (num)
             {
@@ -36,5 +36,14 @@
                     break;
             }
         }
+
+        public static void IfTernarioTemperatura(double tempInCelsius)
+        {
+            
+            static string GetWeatherDisplay(double tempInCelsius) => tempInCelsius < 20.0 ? "Cold." : "Perfect!";
+            Console.WriteLine(GetWeatherDisplay(tempInCelsius));  
+
+        }
+
     }
 }
