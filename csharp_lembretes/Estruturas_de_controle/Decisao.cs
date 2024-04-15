@@ -37,6 +37,18 @@
             }
         }
 
+        public static void SwitchCaseMin(int num)
+        {
+            var msg = num switch
+            {
+                42 => "Essa é a resposta pra todas as perguntas!",
+                666 => "Capiroto",
+                _ => ":)"
+            };
+
+            Console.WriteLine(msg);
+        }
+
         public static void IfTernarioTemperatura(double tempInCelsius)
         {
             
