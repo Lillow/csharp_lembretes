@@ -1,4 +1,6 @@
-﻿namespace csharp_lembretes.Colecoes
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace csharp_lembretes.Colecoes
 {
     internal class Listas
     {
@@ -15,6 +17,15 @@
             numeros.Remove(0); // Remove elemento da posição 0
 
             Console.WriteLine(numeros[0]); //Pega elemento na posição 0
+
+            Console.WriteLine(string.Join(", ", numeros)); //Juntar todos os elemontos da lista separando por ", "
+
+            foreach (int i in numeros) 
+            {
+                numeros.OrderBy(elemento => elemento); // Ordenar lista
+                   
+            }
+                
         }
 
 
