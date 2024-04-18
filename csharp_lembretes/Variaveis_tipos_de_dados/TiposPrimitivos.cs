@@ -4,8 +4,8 @@
     {
         //Tipos primitivos
 
-        public byte byte_;         //  0 a 255                                                 |   1byte
-        public sbyte sbyte_;       //  -128 a 127                                              |   1byte 
+        public byte byte_ = byte.MaxValue;         //  0 a 255                                                 |   1byte
+        public sbyte sbyte_ = sbyte.MinValue;       //  -128 a 127                                              |   1byte 
         public short short_;       //  -32.768 a 32.767                                        |   2bytes
         public ushort ushort_;     //  0 a 65535                                               |   2bytes
         public int int_;           //  -2.147.483.648 a 2.147.483.647                          |   4bytes
@@ -26,6 +26,8 @@
 
         public TiposPrimitivos()
         {
+             uint_ = uint.MaxValue; //Valor máximo de uint
+            int_ = int.MinValue;    //Valor mímnimo de uint
         }
 
         public TiposPrimitivos(char var_s)

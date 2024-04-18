@@ -1,6 +1,6 @@
 ﻿namespace csharp_lembretes.Classes_objetos_heranca_polimorfismo
 {
-    public class SuperClasse(string nomeClasse) : INterface /*Implementar interface*/
+    internal class SuperClasse(string nomeClasse) : INterface /*Implementar interface*/
     {
         const string atributo = "atributo"; // Atributo
         public string NomeClasse { get; } = nomeClasse;

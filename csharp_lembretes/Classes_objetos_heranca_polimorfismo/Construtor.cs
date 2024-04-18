@@ -1,6 +1,6 @@
 ﻿namespace csharp_lembretes.Classes_objetos_heranca_polimorfismo
 {
-    public class Construtor //Construtor primário
+    internal class Construtor //Construtor primário
     {
         //"prop" atalho para propriedade 
         public int MyProperty1 { get; set; }

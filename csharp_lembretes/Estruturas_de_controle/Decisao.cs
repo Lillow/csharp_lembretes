@@ -1,6 +1,6 @@
 ﻿namespace csharp_lembretes.Estruturas_de_controle
 {
-    public class Decisao
+    internal class Decisao
     {
 
 
