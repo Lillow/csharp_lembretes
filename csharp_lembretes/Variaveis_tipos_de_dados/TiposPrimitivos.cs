@@ -18,7 +18,7 @@
 
         public float float_;       //  ±1.4E-45f a ±3.4028235E+38f
         public double double_;     //  ±4.9E-324 a ±1.7976931348623157E+308                    |   8bytes  
-        public decimal decimal_;   //  28 números significativos                               |   16bytes  
+        public decimal decimal_;  //  28 números significativos                               |   16bytes  
 
         public bool boleano;       //  true ou false                                           |   1byte
 

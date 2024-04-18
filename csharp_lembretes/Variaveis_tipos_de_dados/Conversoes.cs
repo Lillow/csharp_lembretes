@@ -55,7 +55,7 @@ namespace csharp_lembretes.Variaveis_tipos_de_dados
             _ = int.TryParse(texto, out num); //Tenta converter texto se conseguir, o valor de saída(out) é  num, se não, é 0
             _ = int.TryParse(texto, out int num1);
 
-            Console.WriteLine(num+ num1);
+            Console.WriteLine(num + num1);
         }
 
     }
