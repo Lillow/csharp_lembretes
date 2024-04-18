@@ -45,5 +45,18 @@ namespace csharp_lembretes.Variaveis_tipos_de_dados
 
         }
 
+        public static void CastTryParse() 
+        {
+
+            string texto = "24a";
+
+            int num;
+
+            _ = int.TryParse(texto, out num); //Tenta converter texto se conseguir, o valor de saída(out) é  num, se não, é 0
+            _ = int.TryParse(texto, out int num1);
+
+            Console.WriteLine(num+ num1);
+        }
+
     }
 }

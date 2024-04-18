@@ -10,4 +10,5 @@ using csharp_lembretes.Variaveis_tipos_de_dados;
 //Console.WriteLine(classe.MetodoAbstrato());
 
 
-Conversoes.CastExplicito();
+//Conversoes.CastExplicito();
+Conversoes.CastTryParse();
