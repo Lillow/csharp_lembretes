@@ -2,6 +2,6 @@
 {
     internal interface INterface
     {
-        String MetodoAbstrato();
+        public abstract String MetodoAbstrato();
     }
 }

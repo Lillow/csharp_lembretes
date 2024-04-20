@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Chamadas_de_API\" />
-    <Folder Include="Conversoes\" />
     <Folder Include="Manipulacao_de_arquivos\" />
     <Folder Include="Tratamento_de_excecoes\" />
     <Folder Include="Packages\" />

@@ -19,6 +19,6 @@
         public static string MyProperty2 => ($"Exemplo: {atributo}");// Mesma coisa do anterior com Lambda
 
 
-        public virtual string  MetodoAbstrato() => "Método Abstrato da Super Classe";
+        public virtual string  MetodoAbstrato() => "Método que pode ser herdado da Super Classe";
     }
 }
