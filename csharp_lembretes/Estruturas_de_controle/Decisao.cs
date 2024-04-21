@@ -49,12 +49,16 @@
             Console.WriteLine(msg);
         }
 
-        public static void IfTernarioTemperatura(double tempInCelsius)
+        public static string IfTernarioTemperatura(double tempInCelsius)
         {
-            
-            static string GetWeatherDisplay(double tempInCelsius) => tempInCelsius < 20.0 ? "Cold." : "Perfect!";
-            Console.WriteLine(GetWeatherDisplay(tempInCelsius));  
+            return tempInCelsius < 20.0 ? "Cold." : "Perfect!";  
 
+        }
+
+        public static void IfElseDeUmaLinha(int a, int b)
+        {
+            if (a != b) Console.WriteLine($"a: {a} diferente de b: {b}");
+            else Console.WriteLine($"a: {a} igual a b: {b}");
         }
 
     }
