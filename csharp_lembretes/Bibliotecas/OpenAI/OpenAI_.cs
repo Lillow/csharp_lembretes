@@ -12,8 +12,11 @@ internal class OpenAI_
 
         chat.AppendSystemMessage("Resuma a banda Linkin Park em um parágrafo.");
 
-        string resposta = await chat.GetResponseFromChatbotAsync();
+        string resposta1 = await chat.GetResponseFromChatbotAsync();
 
-        Console.WriteLine(resposta);
+        string resposta2 = chat.GetResponseFromChatbotAsync().GetAwaiter().GetResult();
+
+        Console.WriteLine(resposta1);
+        Console.WriteLine(resposta2);
     }
 }

@@ -8,10 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Chamadas_de_API\" />
     <Folder Include="Manipulacao_de_arquivos\" />
     <Folder Include="Tratamento_de_excecoes\" />
     <Folder Include="Packages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenAI" Version="1.11.0" />
   </ItemGroup>
 
 </Project>
