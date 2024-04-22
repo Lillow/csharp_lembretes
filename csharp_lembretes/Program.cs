@@ -2,8 +2,6 @@
 𝔸𝕢𝕦𝕚 𝕒𝕔𝕠𝕟𝕥𝕖𝕔𝕖𝕞 𝕠𝕤 𝕥𝕖𝕤𝕥𝕖𝕤
 *************************/
 
-using csharp_lembretes.Variaveis_tipos_de_dados;
-
 //SuperClasse classe = new SuperClasse("Classe1");
 //Console.WriteLine(classe.MetodoAbstrato());
 //classe = new SubClasse("Classe2");
@@ -11,4 +9,6 @@ using csharp_lembretes.Variaveis_tipos_de_dados;
 
 
 //Conversoes.CastExplicito();
-Conversoes.CastTryParse();
+//Conversoes.CastTryParse();
+
+
