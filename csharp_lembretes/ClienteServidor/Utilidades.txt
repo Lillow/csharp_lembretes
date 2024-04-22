@@ -1,3 +1,8 @@
+Exemplo de Aplição Webservice C# criada por Danillo Silva
+https://github.com/Lillow/ScreenSoundAPI
+
+Http codigos de requisição
 https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
 
+APIs públicas
 https://github.com/public-apis/public-apis
