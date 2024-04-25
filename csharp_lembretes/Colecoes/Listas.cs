@@ -1,10 +1,8 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace csharp_lembretes.Colecoes
+﻿namespace csharp_lembretes.Colecoes
 {
     internal class Listas
     {
-        public void List()
+        public static void List()
         {
             List<int> numeros = new List<int>(); // Declarando e inicializando arrayList
 
@@ -28,7 +26,7 @@ namespace csharp_lembretes.Colecoes
                 
         }
 
-        public void LambdaLista()
+        public static void LambdaLista()
         {
               List<int> numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -51,7 +49,7 @@ namespace csharp_lembretes.Colecoes
 
         }
 
-        public void LambdaOrdenar()
+        public static void LambdaOrdenar()
         {
             List<int> numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -72,6 +70,18 @@ namespace csharp_lembretes.Colecoes
             void GetNumerosPares() => numerosPares.ForEach(numero => Console.WriteLine(numero));
 
 
+        }
+
+        public static void DebugLista()
+        {
+            List<int> lista = [];
+        
+            lista.Add(1);
+            Console.WriteLine($"Quantidade de itens:{lista.Count} Capacidade: {lista.Capacity}");
+            lista.Add(2);
+            Console.WriteLine($"Quantidade de itens:{lista.Count} Capacidade: {lista.Capacity}");
+            lista.Add(3);
+            Console.WriteLine($"Quantidade de itens:{lista.Count} Capacidade: {lista.Capacity}");
         }
 
     }
