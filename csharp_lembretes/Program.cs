@@ -12,6 +12,10 @@
 //Conversoes.CastTryParse();
 
 
-using csharp_lembretes.Manipulacao_de_arquivos;
+//using csharp_lembretes.Manipulacao_de_arquivos;
 
-Arquivo.Criar("tste.txt", "Esse arquivo é umteste de criação de arquivo C#");
+//Arquivo.Criar("tste.txt", "Esse arquivo é um teste de criação de arquivo C#");
+
+using csharp_lembretes.Bibliotecas;
+
+Console.WriteLine(Math_.Seno(120));
