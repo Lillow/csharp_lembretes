@@ -12,30 +12,26 @@ namespace csharp_lembretes.Estruturas_de_controle
         //    }
         //}
 
-        public void for_(int num)
+        public static void For0toNum(int num)
         {
-            for (int i = 0; i < num; i++)
+            for (int i = 0; i <= num; i++)
             {
                 Console.WriteLine("Número: " + i);
             }
         }
-
-        public void for_(int num1, int num2)
+        public static void For_i_j(int j)
         {
             int i;
-            int j = 3;
             for (i = 0, Console.WriteLine($"Start: i={i}, j={j}"); i < j; i++, j--, Console.WriteLine($"Step: i={i}, j={j}")) ;
         }
-
-        public void foreach_(int[] nums)
+        public static void Foreach_(int[] nums)
         {
             foreach (int i in nums)
             {
                 Console.WriteLine("Número: " + i);
             }
         }
-
-        public void while_(int num)
+        public static void While_(int num)
         {
             while (num > 0)
             {
@@ -43,10 +39,7 @@ namespace csharp_lembretes.Estruturas_de_controle
                 num--;
             }
         }
-
-
-
-        public void doWhile_(int num)
+        public static void DoWhile_(int num)
         {
             do
             {
