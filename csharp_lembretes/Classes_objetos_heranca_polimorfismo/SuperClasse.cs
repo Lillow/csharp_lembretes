@@ -12,10 +12,7 @@
 
         public static string MyProperty1 // Propriedade que possui get exemplo
         {
-            get
-            {
-                return ( $"Exemplo {campo}");
-            }
+            get => ( $"Exemplo {campo}");            
         }
 
         public static string MyProperty2 => ($"Exemplo: {campo}");// Mesma coisa do anterior com Lambda

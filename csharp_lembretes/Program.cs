@@ -11,6 +11,18 @@ int[] array = [1, 2, 3];
 Arrays.CopiarArray(array);
 */
 
+//using csharp_lembretes.Colecoes;
+
+//Listas.DebugLista();
+
+
+
+
+
+//using csharp_lembretes.Classes_objetos_heranca_polimorfismo;
+//ConstrutorEpropriedades objeot = new(-1);
+
+using csharp_lembretes.Classes_objetos_heranca_polimorfismo;
 
 /**
 using csharp_lembretes.Estruturas_de_controle;
@@ -18,8 +30,4 @@ using csharp_lembretes.Estruturas_de_controle;
 // Repeticao.For0toNum(20);
 // Repeticao.For_i_j(4);
 */
-
-
-using csharp_lembretes.Colecoes;
-
-Listas.DebugLista();
+ModificadoresDeAcesso mod =  new ModificadoresDeAcesso();
