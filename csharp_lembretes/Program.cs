@@ -22,7 +22,20 @@ Arrays.CopiarArray(array);
 //using csharp_lembretes.Classes_objetos_heranca_polimorfismo;
 //ConstrutorEpropriedades objeot = new(-1);
 
-using csharp_lembretes.Classes_objetos_heranca_polimorfismo;
+//using csharp_lembretes.Classes_objetos_heranca_polimorfismo;
+
+//ModificadoresDeAcesso mod =  new ModificadoresDeAcesso();
+
+
+//using csharp_lembretes.Variaveis_tipos_de_dados;
+
+//FormatacoesReais formata = new FormatacoesReais(.234f);
+//Console.WriteLine(formata.Dolar);
+//Console.WriteLine(formata.Real);
+//Console.WriteLine(formata.Casas);
+//Console.WriteLine(formata.Porcento);
+//Console.WriteLine(formata.FormatarPersonalizado);
+
 
 /**
 using csharp_lembretes.Estruturas_de_controle;
@@ -30,4 +43,12 @@ using csharp_lembretes.Estruturas_de_controle;
 // Repeticao.For0toNum(20);
 // Repeticao.For_i_j(4);
 */
-ModificadoresDeAcesso mod =  new ModificadoresDeAcesso();
+
+using csharp_lembretes.Variaveis_tipos_de_dados;
+DataHora data = new(DataHora.AgoraMais5dias);
+Console.WriteLine(data.DataString1);
+Console.WriteLine(data.DataString2);
+Console.WriteLine(data.DataCurta);
+Console.WriteLine(data.HoraCurta);
+
+Console.WriteLine(DataHora.StringParaData("2022-13-17 18:00"));
