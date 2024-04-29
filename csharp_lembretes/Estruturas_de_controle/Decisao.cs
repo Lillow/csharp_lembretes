@@ -21,6 +21,22 @@
             }
         }
 
+        public static string IfTernarioTemperatura(double tempEmCelsius)
+        {
+            return (tempEmCelsius < 22.0) ? "Frio." : "Ótimo!";
+
+        }
+
+        public static void IfTernarioPar(int numero)
+        {
+            Console.WriteLine($"O número {numero} é " + (numero % 2 == 0 ? "par" : "ímpar"));
+        }
+
+        public static void IfElseDeUmaLinha(int a, int b)
+        {
+            if (a != b) Console.WriteLine($"a: {a} diferente de b: {b}");
+            else Console.WriteLine($"a: {a} igual a b: {b}");
+        }
         public static void SwitchCase(int num)
         {
             switch (num)
@@ -49,17 +65,7 @@
             Console.WriteLine(msg);
         }
 
-        public static string IfTernarioTemperatura(double tempInCelsius)
-        {
-            return tempInCelsius < 20.0 ? "Cold." : "Perfect!";  
 
-        }
-
-        public static void IfElseDeUmaLinha(int a, int b)
-        {
-            if (a != b) Console.WriteLine($"a: {a} diferente de b: {b}");
-            else Console.WriteLine($"a: {a} igual a b: {b}");
-        }
 
     }
 }
