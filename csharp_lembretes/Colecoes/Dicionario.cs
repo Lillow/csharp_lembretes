@@ -4,8 +4,6 @@
     {
         public Dicionario()
         {
-            Dictionary<string, List<int>> dicionario = new Dictionary<string, List<int>>();
-
             dicionario.Add("chave1", [1, 2, 3, 4, 5, 6, 7, 8]);
             dicionario.Add("chave2", [1, 2, 3, 4, 5, 6, 7, 8]);
 
@@ -22,13 +20,10 @@
                 {
                     Console.WriteLine(valor); // Exibir valores do dicionário
                 }
-
-
             }
-
-
-
         }
- 
+
+        Dictionary<string, List<int>> dicionario = new Dictionary<string, List<int>>();
+
     }
 }
