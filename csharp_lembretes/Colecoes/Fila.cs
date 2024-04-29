@@ -2,6 +2,8 @@
 
 internal class Fila
 {
+    //Adiciona e exclui em ordem de fila 
+
     public Fila(int elementos)
     {
         for (int i = 0; i < elementos; i++)
@@ -23,7 +25,7 @@ internal class Fila
     public void RemoverElemto()
     {
         fila.Dequeue();
-    }
+    }// Remove sempre o primeiro da fila
 
 
 }

@@ -4,16 +4,16 @@
 
 using csharp_lembretes.Colecoes;
 
-Fila fila = new(10);
+Pilha pilha = new(10);
 
-fila.RemoverElemto();
-fila.MostrarElemtos();
+pilha.RemoverElemto();
+pilha.MostrarElemtos();
 Console.WriteLine("------------------------------------");
 
-fila.RemoverElemto();
-fila.MostrarElemtos();
+pilha.RemoverElemto();
+pilha.MostrarElemtos();
 Console.WriteLine("------------------------------------");
 
-fila.RemoverElemto();
-fila.MostrarElemtos();
+pilha.RemoverElemto();
+pilha.MostrarElemtos();
 Console.WriteLine("------------------------------------");
