@@ -1,4 +1,4 @@
-﻿namespace csharp_lembretes.Bibliotecas.OpenAI;
+﻿namespace csharp_lembretes.GerenciarPacotes.OpenAI;
 
 using OpenAI_API;
 internal class OpenAI_

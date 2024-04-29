@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="GerenciarPacotes\Nuget.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="GerenciarPacotes\Nuget.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="OpenAI" Version="1.11.0" />
   </ItemGroup>
 
