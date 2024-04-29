@@ -24,4 +24,18 @@ internal class Arquivo
             Console.WriteLine(line.Trim());
         }
     }
+
+    public static (bool sucesso, string[] linhas, int nLinhas) LerArquivoReturnTupla(string caminho)
+    {
+        try
+        {
+            string[] linhas = File.ReadAllLines(caminho);
+            return (true, linhas, linhas.Count());
+        }
+        catch(Exception)        
+        {
+            return(false, new string[0], 0);
+        }
+
+    }
 }
