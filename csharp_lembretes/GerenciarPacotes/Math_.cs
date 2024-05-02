@@ -1,4 +1,4 @@
-﻿namespace csharp_lembretes.Bibliotecas;
+﻿namespace csharp_lembretes.GerenciarPacotes;
 
 internal class Math_
 {
