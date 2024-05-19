@@ -1,0 +1,8 @@
+- Instalar os Pacotes necessários
+- Criar os modelos/entidades (Models/Entities)
+- Criar o contexto (Context)
+- Configurar conexão com o banco
+- Criar tabelas no banco (migrations) 
+	+(dotnet-ef migrations add CriacaoTabelaExemplo) 
+	+(dotnet-ef database update)
+- Criar controles e endpoints(Controller)
