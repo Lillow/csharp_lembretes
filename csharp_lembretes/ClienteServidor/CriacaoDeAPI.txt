@@ -6,3 +6,4 @@
 	+(dotnet-ef migrations add CriacaoTabelaExemplo) 
 	+(dotnet-ef database update)
 - Criar controles e endpoints(Controller)
+	+(GET POST PUT/PATCH DELETE)
